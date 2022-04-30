@@ -15,4 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_ares.mk
+    $(LOCAL_DIR)/lineage_ares.mk
+
+COMMON_LUNCH_CHOICES := \
+    lineage_phoenix-user \
+    lineage_phoenix-userdebug \
+    lineage_phoenix-eng
